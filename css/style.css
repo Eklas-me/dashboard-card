@@ -1,0 +1,251 @@
+body {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.control-left {
+  display: flex;
+  align-items: center;
+}
+.control-left-one {
+  margin-right: 6px;
+  background: #23272b;
+  width: 33px;
+  height: 33px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 5px;
+}
+.control-left-one input {
+  width: 13px;
+  height: 17px;
+}
+.control-left-tow button:focus {
+  background: #28313b;
+  border: 1px solid #23272b;
+}
+.control-left-tow button {
+  border: none;
+  outline: none;
+  background: #23272b;
+  color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+.control-right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.control-right-left {
+  display: flex;
+  align-items: center;
+}
+.control-r-left-one {
+  margin-right: 5px;
+}
+.control-r-left-tow select {
+  width: 130px;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+  background: #3a4550;
+  color: #fff;
+  border-radius: 5px;
+}
+.control-right-right {
+  position: relative;
+}
+.control-right-right input {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 33px;
+  padding: 5px 5px;
+  background: #23272b;
+  color: #fff;
+  border-radius: 5px;
+}
+.control-right-right input:focus {
+  background: #44505c;
+  border: 1px solid #23272b;
+  box-sizing: border-box;
+}
+.search-button {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+}
+.search-button button {
+  background: #46525e;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.search-button button i {
+}
+
+/* Card section Start */
+.my-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.my-image {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+.my-image img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #45515e;
+}
+.card {
+  background-color: #23272b;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-icon-left button {
+  outline: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  width: 33px;
+  height: 33px;
+  margin-right: 3px;
+  border-radius: 50%;
+  border: 1px solid rgb(71, 83, 97);
+}
+.card-icon-left button:focus {
+  background: #28313b;
+  border: 1px solid #23272b;
+}
+.card-icon-right button {
+  outline: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  width: 33px;
+  height: 33px;
+  margin-right: 3px;
+  border-radius: 50%;
+  border: 1px solid rgb(71, 83, 97);
+}
+.card-icon-right button:focus {
+  background: #28313b;
+  border: 1px solid #23272b;
+}
+.my-img-title {
+  margin-bottom: 30px;
+}
+.my-btn a {
+  color: #fff;
+  background-color: #475361;
+  display: inline-block;
+  text-decoration: none;
+  padding: 9px 24px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.my-img-title p {
+  font-size: 12px;
+  color: rgb(94 105 119);
+  font-weight: 600;
+}
+.my-img-title h5 {
+  font-size: 25px;
+}
+.card-icon-right label {
+  width: 33px;
+  line-height: 33px;
+  height: 33px;
+  text-align: center;
+  border: 1px solid rgb(71, 83, 97);
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.card-icon-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Card section eND */
+
+/* Pagination */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.page-link {
+  color: #ffffff;
+  background-color: #46525f;
+  border: 1px solid #576473;
+}
+.page-link:hover {
+  color: rgb(255 255 255);
+  background-color: rgb(35 39 43);
+  border-color: rgb(70 82 94);
+}
+a.page-link:focus {
+  background: #23272b;
+  outline: none;
+}
+
+/* Responsive */
+@media only screen and (max-width: 575px) {
+  .header-left {
+    width: 60%;
+    margin-bottom: 20px !important;
+  }
+  .header-right {
+    width: 40%;
+    margin-bottom: 20px !important;
+  }
+  .control-left-tow button {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
+    font-size: 14px;
+  }
+  .control-right-right input {
+    width: 150px;
+    height: 30px;
+  }
+  .search-button {
+    top: 2px;
+  }
+  .control-left-one {
+    margin-right: 4px;
+    width: 25px;
+    height: 29px;
+    line-height: 32px;
+  }
+  .show-one {
+    width: 45%;
+  }
+  .show-tow {
+    width: 55%;
+  }
+  .control-left1 h4 {
+    font-size: 18px;
+  }
+  .control-r-left-tow select {
+    width: 99px;
+    height: 28px;
+    font-size: 12px;
+  }
+  .control-r-left-one span {
+    font-size: 13px;
+  }
+}
